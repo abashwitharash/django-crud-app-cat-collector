@@ -19,9 +19,9 @@ def cat_index(request):
     # Render the cats/index.html template with the cats data
     return render(request, 'cats/index.html', {'cats': cats})
 
-# Define the home view function
+# Define the home view function 
 def home(request):
-    # Send a simple HTML response
+
     return render(request, 'home.html')
 
 def about(request):
